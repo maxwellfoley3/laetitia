@@ -1,21 +1,29 @@
 html, body {
     text-align: center;
+    background-color: #fff;
+    color: #222222;
+    font-family: "adobe-garamond-pro", serif;
 }
 
 h1 {
     font-family: sans-serif;
+    font-size: 16vw;
+    font-weight: 800;
+    margin-top: 5vw;
 }
 
 #container {
-    max-width: 1000px;
+    max-width: 800px;
     margin: auto;
+    font-size: 1.2em;
+    position: relative;
 }
 
 #fall-2024 {
     max-width: 800px;
     border: 1px black solid;
     margin: auto;
-    margin-top: 60px;
+    margin-top: 30px;
     margin-bottom: 60px;
 }
 
@@ -38,4 +46,21 @@ h1 {
 .wound {
     font-size: 8px;
     color: #aaa;
+}
+
+.angel-image {
+    opacity: .3;
+}
+
+.laetitia-blur {
+    opacity:.4;
+    position:absolute;
+    width:100%;
+    top:0px;
+    left:0px;
+}
+
+#title-holder {
+    height:32vw;
+    max-height: 200px;
 }
