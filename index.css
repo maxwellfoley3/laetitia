@@ -1,0 +1,41 @@
+html, body {
+    text-align: center;
+}
+
+h1 {
+    font-family: sans-serif;
+}
+
+#container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+#fall-2024 {
+    max-width: 800px;
+    border: 1px black solid;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.essay-box {
+    text-align: left;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.author-name {
+    display: inline-block;
+    font-weight: bold;
+}
+
+.essay-name {
+    display: inline-block;
+}
+
+.wound {
+    font-size: 8px;
+    color: #aaa;
+}
