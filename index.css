@@ -10,6 +10,9 @@ h1 {
     font-size: 16vw;
     font-weight: 800;
     margin-top: 5vw;
+    z-index: 2;
+    position: relative;
+    text-shadow: 10px 10px 20px #aaa;
 }
 
 #container {
@@ -53,7 +56,7 @@ h1 {
 }
 
 .laetitia-blur {
-    opacity:.4;
+    opacity:.3;
     position:absolute;
     width:100%;
     top:0px;
@@ -63,4 +66,17 @@ h1 {
 #title-holder {
     height:32vw;
     max-height: 200px;
+}
+
+#ascii-background {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    position: absolute;
+    top: 100px;
+    color: #dadada;
+}
+
+#in-front {
+    z-index: 2;
+    position: relative;
 }
